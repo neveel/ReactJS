@@ -14,7 +14,7 @@ const films = [
 const Info = ({ title }) => {
   // console.log("props", props);
   return (
-    <div>
+    <div className="test">
       <h1>Hello from {title}</h1>
       <h2>Лет: {age}</h2>
       <h2>Имя: {obj.name}</h2>
